@@ -1,11 +1,13 @@
 <script setup>
+import TheHeader from "./components/header/TheHeader.vue";
+import TheFooter from "./components/footer/TheFooter.vue";
 </script>
 
 <template>
     <div class="flex flex-col min-h-[100vh]">
         
         <div class="">
-            Header
+            <TheHeader/>
         </div>
         
         <div class="flex-1">
@@ -13,7 +15,7 @@
         </div>
         
         <div class="mt-auto">
-            Footer
+            <TheFooter/>
         </div>
         
     </div>
